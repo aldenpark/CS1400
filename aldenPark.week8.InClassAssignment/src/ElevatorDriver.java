@@ -1,6 +1,6 @@
 /**
  * @filename: ElevatorDriver.java
- * @author: Alden Park & -----------
+ * @author: Alden Park & Cody Lew
  * @date: 10/17/2017
  * @description: Week 8 in class Assignment
  */
@@ -22,7 +22,7 @@ public class ElevatorDriver {
         do {
             System.out.print("Options: (s)elect a floor, (f)ire alarm, (q)uit\n\n" +
                 "Enter s, f, or q ==> ");
-            input = stdIn.next().charAt(0);
+            input = stdIn.next().toLowerCase().charAt(0);
             switch(input){
                 case 's':
                     el.selectFloor();

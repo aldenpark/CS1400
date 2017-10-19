@@ -1,6 +1,6 @@
 /**
  * @filename: Shirt.java
- * @author: Alden Park & --------
+ * @author: Alden Park & Cody Lew
  * @date: 10/17/2017
  * @description: Week 8 in class Assignment
  */
@@ -45,7 +45,7 @@ public class Elevator {
         if(stdIn.hasNextInt()) {
             floor = stdIn.nextInt();
         }
-        if(floor < 1 || floor > 100) {
+        if(floor < 1 || floor > 100 || floor == 13) { // floor 13 is an optional parameter
             System.out.println("Invalid floor selection - must be between 1 and 100.");
             selectFloor();
         } else {
