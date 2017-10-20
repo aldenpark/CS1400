@@ -1,6 +1,6 @@
 /**
  * @filename: Shirt.java
- * @author: Alden Park & Cody Lew
+ * @author: Alden Park & Cody Lay
  * @date: 10/17/2017
  * @description: Week 8 in class Assignment
  */

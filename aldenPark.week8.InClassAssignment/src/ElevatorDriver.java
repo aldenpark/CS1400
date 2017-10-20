@@ -1,6 +1,6 @@
 /**
  * @filename: ElevatorDriver.java
- * @author: Alden Park & Cody Lew
+ * @author: Alden Park & Cody Lay
  * @date: 10/17/2017
  * @description: Week 8 in class Assignment
  */
@@ -18,7 +18,7 @@ public class ElevatorDriver {
         Elevator el = new Elevator();
         char input;
         
-        System.out.print("Welcome to -----  & Alden's Elevator simulator!\n\n");
+        System.out.print("Welcome to Cody's & Alden's Elevator simulator!\n\n");
         do {
             System.out.print("Options: (s)elect a floor, (f)ire alarm, (q)uit\n\n" +
                 "Enter s, f, or q ==> ");
