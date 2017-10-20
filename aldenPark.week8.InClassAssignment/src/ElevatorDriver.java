@@ -16,26 +16,26 @@ public class ElevatorDriver {
     {
         Scanner stdIn = new Scanner(System.in);
         Elevator el = new Elevator();
-        char input;
+        String input;
         
         System.out.print("Welcome to Cody's & Alden's Elevator simulator!\n\n");
         do {
             System.out.print("Options: (s)elect a floor, (f)ire alarm, (q)uit\n\n" +
                 "Enter s, f, or q ==> ");
-            input = stdIn.next().toLowerCase().charAt(0);
+            input = stdIn.next().toLowerCase();
             switch(input){
-                case 's':
+                case "s":
                     el.selectFloor();
                   break;
-                case 'f':
+                case "f":
                     el.fireAlarm();
                   break;
-                case 'q': // placeholder  so that an eror message isn't displayed
+                case "q": // placeholder  so that an eror message isn't displayed
                   break;
                 default:
                     System.out.print("Invalid Selection.");
             }
-        } while(input != 'q');
+        } while(!"q".equals(input));
         
     } // end main
     
