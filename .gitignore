@@ -22,3 +22,8 @@
 hs_err_pid*
 
 # Misc
+nbproject/
+build/
+private.xml
+build.xml
+manifest.mf
