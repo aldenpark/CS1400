@@ -1,5 +1,5 @@
 /**
- * @filename: DiceSimulationDriver.java
+ * @filename: HungerGames.java
  * @author: Alden Park
  * @date: 11/02/2017
  * @description: Week 10 In Class Assignment
