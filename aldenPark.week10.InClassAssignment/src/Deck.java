@@ -27,6 +27,8 @@ public class Deck {
         final char[] SUIT = {'C','D','H','S'};
         card = new ArrayList<>();
         
+        // for (int=0; i<TOTAL_CARDS;i++) // TOTAL_CARDS = 52
+        // addCard(new Card((2 + i%13), i/13));
         for(char s : SUIT) {
             for(int i=1; i<=13;i++) {
                 card.add(new Card(i, s));
